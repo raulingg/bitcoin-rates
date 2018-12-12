@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import moment from 'moment';
 import config from '../../config';
 
 const dateFilters = config('dateFilters');
 const defaultDateFilterId = dateFilters.find(dateFilter => dateFilter.isDefault).id;
 
-class DatesFilter extends Component {
+class DatesFilter extends PureComponent {
   state = {
     dateFilterIdSelected: defaultDateFilterId,
   };
