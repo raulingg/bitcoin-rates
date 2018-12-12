@@ -1,0 +1,8 @@
+node_modules/
+.vscode/
+public/dist
+public/index.html
+.DS_Store
+.env
+.env.testing
+yarn-error.log
